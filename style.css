@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Kids_Next_Door-logo-08D52E7DD8-seeklogo.com.png);
+    background-repeat: no-repeat;
+    background-position: bottom 50% right 30% ;
+    padding: 20px 10%;
+    background-size: 300px;
+    transition: background-image 0.3s;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+}
+nav .btn{
+    text-decoration: none;
+    color: #000;
+    background: #f4f007;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 900;
+    font-size: 14px;
+    border: 2px solid red;
+}
+.content
+{
+    margin-top: 10%;
+}
+.content h2{
+    color: rgb(216, 11, 11);
+    font-size: 40px;
+    font-weight: 900;
+}
+.content h1{
+    font-size: 100px;
+    color: #222;
+    margin-top: -15px;
+}
+.content p{
+    max-width: 360px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555;
+}
+.content h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.numbuhSelect{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 32px;
+    display: flex;
+    margin-top: 10px;
+    gap: 15px;
+}
+.numbuhSelect #one{
+    color: rgb(216, 11, 11);
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+.numbuhSelect #one:hover{
+    background: rgb(112, 2, 2);
+}
+.numbuhSelect #two{
+    color: rgb(15, 187, 255);
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid black;
+}
+.numbuhSelect #two:hover{
+    background: rgb(2, 109, 152);
+}
+.numbuhSelect #three{
+    color: rgb(12, 171, 83);
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid black;
+}
+.numbuhSelect #three:hover{
+    background: rgb(2, 106, 49);
+}
+.numbuhSelect #four{
+    color: rgb(231, 149, 8);
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid black;
+}
+.numbuhSelect #four:hover{
+    background: rgb(171, 109, 2);
+}
+.numbuhSelect #five{
+    color: rgb(10, 99, 232);
+    background: rgb(216, 11, 11);
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid black;
+}
+.numbuhSelect #five:hover{
+    background: rgb(112, 2, 2);
+}
